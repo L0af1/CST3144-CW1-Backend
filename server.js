@@ -1,4 +1,4 @@
-// server.js
+//import "dotenv/config";
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -12,8 +12,9 @@ const app = express();
 
 app.use(logger);
 app.use(express.json());
+//highkey left this here just in case bc i didnt add any images to my frontend yet
 app.use("/images", express.static(path.join(__dirname, "public", "images")));
-app.use("/", routes);
+app.use("/api", routes);
 
 const PORT = process.env.PORT || 4000;
 
