@@ -8,7 +8,7 @@ let db;
 export async function connectDB() {
   try {
     await client.connect();
-    db = client.db("tutorconnect");  
+    db = client.db("Website");  
     console.log("Connected to MongoDB, YIPPEEE!!!");
   } catch (err) {
     console.error("MongoDB connection error:", err);
