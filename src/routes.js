@@ -34,7 +34,7 @@ router.post("/orders", async (req, res) => {
 
 router.put("/lessons/:id", async (req, res) => {
     try {
-        const lessonId = parseInt(req.params.id); 
+        const lessonId = req.params.id;
         const updates = req.body;
 
         const db = getDB();
