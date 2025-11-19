@@ -16,7 +16,7 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "public", "images")));
 app.use("/api", routes);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 
 connectDB().then(() => {
   app.listen(PORT, () => {
