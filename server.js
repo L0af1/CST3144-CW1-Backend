@@ -12,6 +12,14 @@ const app = express();
 
 app.use(logger);
 app.use(express.json());
+
+import cors from "cors";
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "PUT"],
+  allowedHeaders: ["Content-Type"],
+}));
+
 //highkey left this here just in case bc i didnt add any images to my frontend yet
 app.use("/images", express.static(path.join(__dirname, "public", "images")));
 app.use("/api", routes);
