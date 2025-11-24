@@ -3,7 +3,7 @@ import { getDB } from "./db.js";
 
 const router = express.Router();
 
-router.get("/search", async (req, res) => {
+router.get("/lessons/search", async (req, res) => {
     try {
       const q = req.query.q?.toLowerCase() || "";
   
