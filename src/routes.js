@@ -53,4 +53,30 @@ router.put("/lessons/:id", async (req, res) => {
     }
 });
 
+router.get("/search", async (req, res) => {
+    try {
+      const q = req.query.q?.toLowerCase() || "";
+  
+      if (!q) {
+        return res.json([]); 
+      }
+  
+      const db = getDB();
+  
+      const lessons = await db.collection("tutors").find({
+        $or: [
+          { name: { $regex: q, $options: "i" } },
+          { subject: { $regex: q, $options: "i" } },
+          { location: { $regex: q, $options: "i" } }
+        ]
+      }).toArray();
+  
+      res.json(lessons);
+  
+    } catch (err) {
+      console.error("SEARCH ERROR:", err);
+      res.status(500).json({ error: "Search failed" });
+    }
+  });
+
 export default router;
