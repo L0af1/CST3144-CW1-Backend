@@ -63,7 +63,7 @@ router.get("/search", async (req, res) => {
   
       const db = getDB();
   
-      const lessons = await db.collection("lessons").find({
+      const lessons = await db.collection("tutors").find({
         $or: [
           { name: { $regex: q, $options: "i" } },
           { subject: { $regex: q, $options: "i" } },
