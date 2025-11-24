@@ -60,23 +60,23 @@ router.post("/orders", async (req, res) => {
 
 router.put("/lessons/:id", async (req, res) => {
     try {
-        const lessonId = req.params.id;
-        const updates = req.body;
-
-        const db = getDB();
-        const result = await db.collection("tutors").updateOne(
-            { id: lessonId },
-            { $set: updates }
-        );
-
-        res.json({
-            message: "Lesson updated",
-            modifiedCount: result.modifiedCount
-        });
+      const lessonId = Number(req.params.id);  
+      const updates = req.body;
+  
+      const db = getDB();
+      const result = await db.collection("tutors").updateOne(
+        { id: lessonId },  
+        { $set: updates }
+      );
+  
+      res.json({
+        message: "Lesson updated",
+        modifiedCount: result.modifiedCount
+      });
     } catch (err) {
-        console.error("Error updating lesson:", err);
-        res.status(500).json({ error: "Failed to update lesson" });
+      console.error("Error updating lesson:", err);
+      res.status(500).json({ error: "Failed to update lesson" });
     }
-});
+  });
 
 export default router;
