@@ -20,7 +20,6 @@ app.use(cors({
   allowedHeaders: ["Content-Type"],
 }));
 
-//highkey left this here just in case bc i didnt add any images to my frontend yet
 app.use(
     "/images",
     express.static(path.join(__dirname, "images"))
