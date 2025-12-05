@@ -21,7 +21,10 @@ app.use(cors({
 }));
 
 //highkey left this here just in case bc i didnt add any images to my frontend yet
-app.use("/images", express.static(path.join(__dirname, "public", "images")));
+app.use(
+    "/images",
+    express.static(path.join(__dirname, "images"))
+  );
 app.use("/api", routes);
 
 const PORT = process.env.PORT || 4000;
