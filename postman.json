@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "c815fddb-030f-41f5-b93c-5645b5949a2f",
+		"name": "My Collection",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50176591",
+		"_collection_link": "https://blue-capsule-9679285.postman.co/workspace/Nick's-Workspace~81fa6522-05ba-4985-8bfd-f2ff46a1a2a1/collection/50176591-c815fddb-030f-41f5-b93c-5645b5949a2f?action=share&source=collection_link&creator=50176591"
+	},
+	"item": [
+		{
+			"name": "Post api/order",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+			},
+			"response": []
+		},
+		{
+			"name": "Get api/lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cst3144-cw1-backend.onrender.com/api/lessons",
+					"protocol": "https",
+					"host": [
+						"cst3144-cw1-backend",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put api/lessons/[{Lesson ID}]",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"space\": 6,\n  \"price\": 35\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cst3144-cw1-backend.onrender.com/api/lessons/3",
+					"protocol": "https",
+					"host": [
+						"cst3144-cw1-backend",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"lessons",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cst3144-cw1-backend.onrender.com/api/lessons/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"space\": 2,\n  \"price\": 25\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cst3144-cw1-backend.onrender.com/api/lessons/2",
+					"protocol": "https",
+					"host": [
+						"cst3144-cw1-backend",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"lessons",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cst3144-cw1-backend.onrender.com/api/lessons/search?q=math",
+					"protocol": "https",
+					"host": [
+						"cst3144-cw1-backend",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"lessons",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "math"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Input validation for name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Input validation for  number",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Cheking if Images work",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

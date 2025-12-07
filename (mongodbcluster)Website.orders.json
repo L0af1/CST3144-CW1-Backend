@@ -1,0 +1,308 @@
+[{
+  "_id": {
+    "$oid": "692035f82e09f6a10400cca5"
+  },
+  "name": "Test",
+  "phone": "02484271",
+  "lessonIDs": [
+    6
+  ],
+  "spaces": 1
+},
+{
+  "_id": {
+    "$oid": "6924862ee17c37ec50c572bf"
+  },
+  "name": "V",
+  "phone": "24578",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248938e17c37ec50c572c1"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924893fe17c37ec50c572c3"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248940e17c37ec50c572c4"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248942e17c37ec50c572c5"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248942e17c37ec50c572c6"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248942e17c37ec50c572c7"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248943e17c37ec50c572c8"
+  },
+  "name": "admin",
+  "phone": "24578124",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69248bafe17c37ec50c572c9"
+  },
+  "name": "testmac",
+  "phone": "34567845678",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "69249db024fb54b028e8a6b4"
+  },
+  "name": "adminnWIn",
+  "phone": "2457809876",
+  "lessonIDs": [
+    2
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924a345310976c47ac86ed5"
+  },
+  "name": "adminWIn",
+  "phone": "245785290",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924ae60882e7176e06eb337"
+  },
+  "name": "john doee",
+  "phone": "876156",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924ae60882e7176e06eb339"
+  },
+  "name": "john doee",
+  "phone": "876156",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924ae60882e7176e06eb33b"
+  },
+  "name": "john doee",
+  "phone": "876156",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924ae60882e7176e06eb33a"
+  },
+  "name": "john doee",
+  "phone": "876156",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924ae61882e7176e06eb33f"
+  },
+  "name": "john doee",
+  "phone": "876156",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924b099882e7176e06eb343"
+  },
+  "name": "adminWInnn",
+  "phone": "2345678912334",
+  "lessonIDs": [
+    3
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6924b0fc882e7176e06eb344"
+  },
+  "name": "joe ayh",
+  "phone": "0987634556",
+  "lessonIDs": [
+    6
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "692868cd04606fedcb6fdf11"
+  },
+  "name": "doe john",
+  "phone": "2345654321234567",
+  "lessonIDs": [
+    4
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6929c7007455b574a1bf86d3"
+  },
+  "name": "Vishnu ",
+  "phone": "456789876",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6929c7017455b574a1bf86d4"
+  },
+  "name": "Vishnu ",
+  "phone": "456789876",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6929c7ce7455b574a1bf86d5"
+  },
+  "name": "Test",
+  "phone": "02484271ad",
+  "lessonIDs": [
+    6
+  ],
+  "spaces": 1
+},
+{
+  "_id": {
+    "$oid": "6931b445a37f2e18027ac0aa"
+  },
+  "name": "Test2",
+  "phone": "02484271ad",
+  "lessonIDs": [
+    6
+  ],
+  "spaces": 1
+},
+{
+  "_id": {
+    "$oid": "6931b580a37f2e18027ac0ab"
+  },
+  "name": "john doe",
+  "phone": "34567845678",
+  "lessonIDs": [
+    1
+  ],
+  "space": 1
+},
+{
+  "_id": {
+    "$oid": "6931c42b1a1e52c920e15265"
+  },
+  "name": "Test3",
+  "phone": "02484271ad",
+  "lessonIDs": [
+    6
+  ],
+  "spaces": 1
+},
+{
+  "_id": {
+    "$oid": "6931c4c61a1e52c920e15266"
+  },
+  "name": "Test4",
+  "phone": "02484271ad",
+  "lessonIDs": [
+    6
+  ],
+  "spaces": 1
+},
+{
+  "_id": {
+    "$oid": "6931c69c546abbf0a41c5cd7"
+  },
+  "name": "Eren",
+  "phone": "02484271",
+  "lessonIDs": [
+    6
+  ],
+  "spaces": 1
+}]
